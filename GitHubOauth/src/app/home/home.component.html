@@ -1,0 +1,41 @@
+<mat-grid-list cols="10" rowHeight="80px" gutterSize="0">
+  <mat-grid-tile [colspan]="1" [rowspan]="1" [style.background]="color">
+    <div id="logo_div">
+      <img id="logo_op" src="assets/op_logo.png" />
+    </div>
+  </mat-grid-tile>
+
+  <mat-grid-tile [colspan]="1" [rowspan]="1" [style.background]="color">
+    <div id="logo_div">
+      <img id="logo_df" src="assets/dataflo_logo.png" />
+    </div>
+  </mat-grid-tile>
+
+  <mat-grid-tile [colspan]="7" [rowspan]="1" [style.background]="color">
+  </mat-grid-tile>
+
+  <mat-grid-tile [colspan]="1" [rowspan]="1" [style.background]="color">
+    <div id="login_div">
+      <a mat-flat-button class="nav-btn" [disableRipple]="true" [href]="Login()">
+        Login <img id="login_img" src="assets/github_logo.png" />
+      </a>
+    </div>
+  </mat-grid-tile>
+
+  <mat-grid-tile [colspan]="2" [rowspan]="4" [style.background]="white">
+  </mat-grid-tile>
+
+  <mat-grid-tile [colspan]="6" [rowspan]="5" [style.background]="white">
+    <p id="main-content">Welcome to DataFlo</p>
+  </mat-grid-tile>
+
+  <mat-grid-tile [colspan]="2" [rowspan]="4" [style.background]="white">
+  </mat-grid-tile>
+</mat-grid-list>
+
+<div id="footer">
+  <p id="footer-content">
+    DataFlo v1.0.0 - 2020
+  </p>
+</div>
+>

@@ -1,0 +1,58 @@
+#logo_div {
+  height: 100%;
+  width: 100%;
+  color: white;
+}
+
+#logo_op {
+  height: 65%;
+  width: 80%;
+  padding: 5% 0 10% 0;
+  margin-left: 15%;
+}
+
+#logo_df {
+    height: 40%;
+    padding-top: 18%;
+}
+
+#login_div {
+  font-size: 18px;
+  color: white;
+}
+
+#login_img {
+  height: 30px;
+}
+
+.nav-btn {
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  color: white;
+  font-size: 1em;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+.nav-btn:hover {
+  opacity: 0.8;
+}
+
+#main-content {
+  font-size: 50px;
+  font-weight: 500;
+}
+
+#footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 50px;
+  text-align: center;
+}
+
+#footer-content {
+  font-weight: 400;
+  padding-top: 10px;
+}
